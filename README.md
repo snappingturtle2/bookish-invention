@@ -2,7 +2,7 @@
 
 - review C basics by implementing an arbitrary precision integer.
 - implement a C struct to review memory security topics.
-- get you confortable with bit-wise operations to prepare for cryptography homeworks 
+- get you comfortable with bit-wise operations 
 
 ## [Arbitrary precision](https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic)
 
@@ -14,7 +14,7 @@ This may be very in-convenient and error prone when we are carrying out large sc
 However, integer in Python doesn't seem to have this limitation and can represent arbitrary precisions. 
 You can calculate any integer operations without worrying the upper bound or lower bound.
 
-In this homework, we implement an arbitrary precision int (`APInt`).
+In this project, we implement an arbitrary precision int (`APInt`).
 For simplicity, `APInt` only stores non-negative numbers.
 
 Here is one example definition.
@@ -31,7 +31,7 @@ typedef struct APInt {
 
 You are allowed to define `APInt` anyway you want.
 
-In this homework, you may want to implement a few common methods we need for `APInt`
+In this project, you may want to implement a few common methods we need for `APInt`
 
 - Constructive methods:
   - Conversion from and to `uint64_t`.
