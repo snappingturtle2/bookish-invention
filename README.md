@@ -1,8 +1,4 @@
-# Homework 1
-
-> Due: 05-16-2023 11:59:59 PM
-
-The goal of this homework is for you to
+# Project 1
 
 - review C basics by implementing an arbitrary precision integer.
 - implement a C struct to review memory security topics.
